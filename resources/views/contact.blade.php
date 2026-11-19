@@ -1,4 +1,4 @@
-
+```php
 @extends('layouts.app')
 
 @section('title', 'Contact Us')
@@ -40,22 +40,22 @@
             <form id="contactForm" novalidate>
 
                 <label for="name">Name</label>
-                <input type="text" id="name"
+                <input type="text" id="name" name="name"
                        placeholder="Enter your name">
                 <small id="nameError" class="error"></small>
 
                 <label for="email">Email</label>
-                <input type="email" id="email"
+                <input type="email" id="email" name="email"
                        placeholder="Enter your email">
                 <small id="emailError" class="error"></small>
 
                 <label for="subject">Subject</label>
-                <input type="text" id="subject"
+                <input type="text" id="subject" name="subject"
                        placeholder="Enter subject">
                 <small id="subjectError" class="error"></small>
 
                 <label for="message">Message</label>
-                <textarea id="message"
+                <textarea id="message" name="message"
                           placeholder="Write your message"></textarea>
                 <small id="messageError" class="error"></small>
 
@@ -76,3 +76,4 @@
 @push('scripts')
 <script src="{{ asset('js/contact.js') }}"></script>
 @endpush
+```
