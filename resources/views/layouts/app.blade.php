@@ -9,8 +9,8 @@
 @php
     // EDIT THESE: the footer must show the group members' names.
     $members = [
-        'Rollymar Guibao — Member 1',
-        'John Doe — Member 2',
+        'Rolly Mar Guibao — Member 1',
+        'Lefayette B. Quilondrino — Member 2',
         'Joshua C. Vasquez — Member 3',
     ];
 
