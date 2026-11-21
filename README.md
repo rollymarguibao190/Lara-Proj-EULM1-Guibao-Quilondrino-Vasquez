@@ -1,10 +1,4 @@
 <<<<<<< HEAD
-# Lara-Proj-SECTION-Surname1-Surname2-Surname3
-
-> **Group name:** _(your group name)_
-> **Section:** _(e.g., BSIT 2A)_
-> **Members:** Surname1 (Member 1, Leader) · Surname2 (Member 2) · Surname3 (Member 3)
-
 ## Theme
 **CEMS — Campus Event Management System of Caraga State University.** A multi-page Laravel website that
 presents how students discover and register for campus events, how organizers create them, and how admins approve them.
@@ -12,9 +6,9 @@ presents how students discover and register for campus events, how organizers cr
 ## Modules and branches
 | Member | Module | Branch |
 |---|---|---|
-| Member 1 (Leader) | Project setup, master layout (`layouts/app.blade.php`), Home page + hero slider | `dev-member1-Surname` |
-| Member 2 | About page | `dev-member2-Surname` |
-| Member 3 | Contact page | `dev-member3-Surname` |
+| Member 1 (Leader) | Project setup, master layout (`layouts/app.blade.php`), Home page + hero slider | `dev-member1-Guibao` |
+| Member 2 | About page | `dev-member2-Quilondrino` |
+| Member 3 | Contact page | `dev-member3-Vasquez` |
 
 ## Files per page
 | Page | Route | View | CSS | JS |
