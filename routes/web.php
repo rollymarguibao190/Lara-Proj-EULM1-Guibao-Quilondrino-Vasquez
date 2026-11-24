@@ -9,6 +9,9 @@ Route::get('/', function () {
 
 // Member 2 adds:  Route::get('/about', ...)    (on its own lines, below this comment)
 
+Route::get('/about', function () {
+    return view('about');
+});
 
 // Member 3 adds:  Route::get('/contact', ...)
 

@@ -1,0 +1,276 @@
+/* ===== Hero Matching CSU Theme ===== */
+.cems-about-hero {
+    background: linear-gradient(135deg, #124822 0%, #185c2c 65%, #1e6e35 100%);
+    color: #ffffff;
+    padding: 4.5rem 0 4.25rem;
+}
+
+.cems-hero-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.12);
+    color: #e8f5ec;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.35rem 0.75rem;
+    border-radius: 6px;
+    margin-bottom: 1.15rem;
+}
+
+.cems-about-hero h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(2.25rem, 4.5vw, 3.25rem);
+    font-weight: 700;
+    line-height: 1.12;
+    margin: 0 0 1rem;
+    color: #ffffff;
+}
+
+.cems-gold {
+    color: #eab308;
+}
+
+.cems-hero-desc {
+    max-width: 620px;
+    color: rgba(255, 255, 255, 0.88);
+    font-size: 1.05rem;
+    line-height: 1.65;
+    margin: 0 0 1.75rem;
+}
+
+.cems-hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    align-items: center;
+}
+
+.cems-hero-actions .btn,
+.cems-hero-actions .cems-btn-outline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    padding: 0 1.35rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1;
+    border-radius: 8px;
+    text-decoration: none;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.cems-btn-outline {
+    border: 1.5px solid rgba(255, 255, 255, 0.65);
+    background: transparent;
+    color: #ffffff;
+    transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.cems-btn-outline:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: #ffffff;
+}
+
+/* ===== Clean Golden Button Override (No Glow) ===== */
+.cems-about-hero .btn-gold,
+.cems-sec-white .btn-gold,
+.cems-sec-sage .btn-gold,
+.cems-about-cta .btn-gold {
+    background-color: #d99b06;
+    border-color: #d99b06;
+    color: #102617;
+    box-shadow: none;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.cems-about-hero .btn-gold:hover,
+.cems-sec-white .btn-gold:hover,
+.cems-sec-sage .btn-gold:hover,
+.cems-about-cta .btn-gold:hover,
+.cems-about-hero .btn-gold:focus,
+.cems-sec-white .btn-gold:focus,
+.cems-sec-sage .btn-gold:focus,
+.cems-about-cta .btn-gold:focus {
+    background-color: #c28a04;
+    border-color: #c28a04;
+    color: #102617;
+    box-shadow: none;
+    outline: none;
+}
+
+/* ===== Sections ===== */
+.cems-sec-white {
+    background: #ffffff;
+    padding: 4.25rem 0;
+}
+
+.cems-sec-sage {
+    background: #edf4ef;
+    padding: 4.25rem 0;
+}
+
+.cems-eyebrow {
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #165127;
+    margin-bottom: 0.5rem;
+}
+
+.cems-heading {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.65rem, 3vw, 2.35rem);
+    font-weight: 700;
+    color: #102617;
+    line-height: 1.2;
+    margin: 0 0 0.75rem;
+}
+
+.cems-two-col {
+    display: grid;
+    grid-template-columns: 0.95fr 1.35fr;
+    gap: 2.5rem;
+    align-items: start;
+}
+
+.cems-copy p {
+    color: #374151;
+    font-size: 1rem;
+    line-height: 1.72;
+    margin: 0 0 1rem;
+}
+
+.cems-btn-row {
+    margin-top: 1.25rem;
+}
+
+.is-hidden {
+    display: none;
+}
+
+/* ===== Cards ===== */
+.cems-center-head {
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto 2.5rem;
+}
+
+.cems-sublead {
+    color: #4b5563;
+    font-size: 0.98rem;
+    margin: 0.35rem 0 0;
+}
+
+.cems-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.cems-grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.cems-card {
+    background: #ffffff;
+    border: 1px solid #e5ece7;
+    border-radius: 14px;
+    padding: 1.75rem;
+    box-shadow: 0 8px 24px rgba(16, 38, 23, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.cems-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 28px rgba(16, 38, 23, 0.09);
+}
+
+.cems-icon-box {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    background: #eaf3ed;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    margin-bottom: 1.1rem;
+}
+
+.cems-card h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.25rem;
+    color: #111827;
+    margin: 0 0 0.4rem;
+}
+
+.cems-member-tag {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #165127;
+    margin-bottom: 0.65rem;
+}
+
+.cems-card p {
+    color: #4b5563;
+    font-size: 0.95rem;
+    line-height: 1.62;
+    margin: 0 0 1.25rem;
+}
+
+.cems-team-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.cems-team-card .highlight-btn {
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+.cems-team-card.is-highlighted {
+    border-color: #d99b06;
+    background: #fffdf4;
+    box-shadow: 0 12px 26px rgba(217, 155, 6, 0.14);
+}
+
+/* ===== CTA Section ===== */
+.cems-about-cta {
+    background: #ffffff;
+    border-top: 1px solid #e5ece7;
+    padding: 3.75rem 0;
+    text-align: center;
+}
+
+.cems-about-cta h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    color: #102617;
+    margin: 0 0 0.55rem;
+}
+
+.cems-about-cta p {
+    color: #4b5563;
+    margin: 0 0 1.5rem;
+}
+
+@media (max-width: 900px) {
+    .cems-grid-3 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .cems-two-col,
+    .cems-grid-2 {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+    }
+}
